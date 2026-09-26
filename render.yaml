@@ -1,0 +1,30 @@
+services:
+  - type: web
+    name: virasat-sarees
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DEFAULT_WHATSAPP_NUMBER
+        value: 919356951406
+      - key: CLOUDINARY_CLOUD_NAME
+        value: qudcaa6j
+      - key: CLOUDINARY_API_KEY
+        value: 158724426326161
+      - key: CLOUDINARY_API_SECRET
+        sync: false
+      - key: RAZORPAY_KEY_ID
+        value: rzp_test_TgZ0xzl3ZHKHJN
+      - key: RAZORPAY_KEY_SECRET
+        sync: false
+      - key: SMTP_HOST
+        value: smtp.gmail.com
+      - key: SMTP_PORT
+        value: "465"
+      - key: SMTP_USER
+        sync: false
+      - key: SMTP_PASS
+        sync: false

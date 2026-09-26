@@ -1,0 +1,6 @@
+{
+  "name": "Virasat Silk & Sarees",
+  "description": "Premium Indian Saree Showroom & E-Commerce Store with real-time stock, order tracking, admin portal, occasion collections, and seamless customer receipts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
